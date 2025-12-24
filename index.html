@@ -1,454 +1,557 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aghni Gold - Sell Your Gold for Best Price in Chennai</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <header class="site-header">
-     
-      
-      <!-- Main Navigation -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aghni Gold - Sell Your Gold for Best Price in Chennai</title>
+  <meta name="description" content="Get the highest price for your gold in Chennai. Instant cash within 15 minutes. BIS certified purity testing. Doorstep service available.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
 
-      <div class="nav-bar">
-        <div class="container nav-bar__content">
-          <div class="logo">
-            <!-- <span class="logo__icon">🪙</span>
-            <span class="logo__title">அக்னி கோல்டு</span> -->
-            <img src="./img/png/navlogo.png" alt="">
-          </div>
-          
-          <button class="nav-toggle" aria-label="Toggle navigation">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          
-          <nav class="main-nav">
-            <ul>
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="about.html">About us</a></li>
-              <li><a href="#services">Our services</a></li>
-              <li><a href="#blog">Blog</a></li>
-              <li><a href="contact.html">Contact us</a></li>
-            </ul>
-          </nav>
-             <a href="tel:+919840098400" class="btn-nav">Call Now</a>
+  <!-- HEADER -->
+  <header class="site-header">
+    <!-- Top Offer Bar -->
+    
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+      <div class="container nav-bar__content">
+        <!-- Logo -->
+        <div class="logo">
+          <img src="./img/logo (4).png" alt="">
         </div>
+
+        <!-- Mobile Toggle -->
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!-- Nav Links -->
+        <ul class="main-nav" id="mainNav">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#services">Our services</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ul>
+
+        <!-- CTA Button -->
+        <a href="tel:+919840098400" class="btn btn--nav">
+          <i class="fas fa-phone"></i> Call Now
+        </a>
       </div>
-       <!-- Top Bar -->
-      <div class="top-bar">
-        <div class="container top-bar__content">
-          <p class="top-bar__text">
-          <span>GOLD OFFER </span>  EXTRA ₹300/gram  உங்க தங்கம் வங்கி,அடக்கு கடை எங்க அடமானத்தில் இருந்தாலும் முழுகும் முன்னே நாங்களே மூட்டி <span>₹300/gram</span> அதிகம் போட்டு வாங்கிப்போம்.
-            
-          </p>
-        </div>
-      </div> 
-    </header>
+    </nav>
+    <div class="top-bar">
+      <p class="top-bar__text">
+        <span class="highlight">GOLD OFFER</span> EXTRA ₹300/gram உங்க தங்கம் வங்கி, அடக்கு கடை எங்க அடமானத்தில் இருந்தாலும் முழுகும் முன்னே நாங்களே மூட்டி <span class="highlight">₹300/gram</span> அதிகம் போட்டு வாங்கிப்போம்.
+      </p>
+    </div>
+  </header>
 
-    <main>
-      <!-- Hero Section -->
-      <section class="hero">
-         <div class="hero__left">
-            <h1 class="hero__tamil-heading">
-              இன்றய மார்க்கெட் விலைக்கு உங்கள் தங்கத்திற்கு 
-              <span>BEST PRICE</span>
-            </h1>
-          </div>
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <!-- Tamil Heading -->
+      <div class="container">
+        <h1 class="hero__heading">
+          இன்றய மார்க்கெட் விலைக்கு உங்கள் தங்கத்திற்கு 
+          <span class="hero__best-price">BEST PRICE</span>
+        </h1>
+      </div>
 
-
-        <div class="container hero__wrapper">
-        
-          <!-- Center: Woman Image -->
-          <div class="hero__center">
-            <div class="hero__image-wrapper">
-              <img src="img/png/bg-123.png" alt="Woman with gold jewelry" class="hero__image" />
-            </div>
-          </div>
-          
-          <!-- Right Side: Brand Name, Benefits, Form -->
-          <div class="hero__right">
-            <!-- Brand Name -->
-            <div class="hero__brand">
-             <img src="/img/png/navlogo.png" alt="">
-            
-            
-            <!-- Benefits List -->
-            <ul class="hero__benefits">
-              <li>
-                <span class="hero__benefit-icon">✓</span>
-                <span>INSTANT Cash within 15 MINUTES</span>
-              </li>
-              <li>
-                <span class="hero__benefit-icon">✓</span>
-                <span>PLEDGED GOLD TAKE OVER</span>
-              </li>
-              <li>
-                <span class="hero__benefit-icon">✓</span>
-                <span>DOOR-STEP SERVICE (7 AM TO 9 PM)</span>
-              </li>
-              <li>
-                <span class="hero__benefit-icon">✓</span>
-                <span>100% SATISFIED CUSTOMER</span>
-              </li>
-            </ul>
-            </div>
-            
-            <!-- Tamil CTA Text -->
-           
-            
-            <!-- Form Card -->
-            <div class="hero__form-card">
-              <h3 class="hero__form-title">GET FREE ESTIMATION</h3>
-              <form id="offerForm" class="form">
-                <div class="form__field">
-                  <input type="text" id="name" name="name" placeholder="Your Name" required />
-                  <span class="form__error" data-error-for="name"></span>
-                </div>
-                <div class="form__field">
-                  <input type="email" id="email" name="email" placeholder="Your Email" required />
-                  <span class="form__error" data-error-for="email"></span>
-                </div>
-                <div class="form__field">
-                  <input type="tel" id="phone" name="phone" placeholder="Phone No." required maxlength="10" />
-                  <span class="form__error" data-error-for="phone"></span>
-                </div>
-                <div class="form__field">
-                  <input type="text" id="grams" name="grams" placeholder="How Many Grams/Gold" required />
-                  <span class="form__error" data-error-for="grams"></span>
-                </div>
-                <button type="submit" class="btn btn--gold btn--full">Get Now</button>
-                <p class="form__success" id="offerFormSuccess"></p>
-              </form>
-            </div>
-             
-          </div>
-          
-        </div>
-        <p class="hero__cta-text">தங்க நகை விற்று உடனடி பணம் பெற</p>
-      </section>
-
-      <!-- Trust Badges -->
-      <section class="badges" >
-        <div class="container badges__grid">
-          <article class="badge-card">
-            <h3>Hassle-Free Process</h3>
-            <p>Walk in with gold, walk out with instant cash in minutes.</p>
-          </article>
-          <article class="badge-card">
-            <h3>Transparent Purity Test</h3>
-            <p>
-              German XRF purity testing done right before your eyes, with no
-              hidden cuts.
-            </p>
-          </article>
-          <article class="badge-card">
-            <h3>Best Price Assured</h3>
-            <p>
-              We follow live market rates so you get the highest possible value.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <!-- Gold Buyer Intro -->
-      <section class="intro">
-        <div class="container intro__grid">
-          <div class="intro__text">
-            <h2>Gold Buyer in Chennai – Get the Highest Price Today</h2>
-            <p>
-              Aghni Gold is the trusted name when you want to sell your gold
-              jewellery, coins, or bars in Chennai. We offer instant, fair, and
-              transparent gold buying services with no hidden charges.
-            </p>
-            <p>
-              Whether your gold is old, used, broken, or pledged, we help you
-              unlock its true value with a smooth documentation-free process.
-            </p>
-            <div class="intro__actions">
-              <a href="#offerForm" class="btn btn--primary">Sell Your Gold</a>
-              <a href="#gold-worth" class="btn btn--ghost"
-                >Check Today’s Gold Price</a
-              >
-            </div>
-          </div>
-          <div class="intro__image">
-            <div class="placeholder-image placeholder-image--lady">
-              <!-- Replace this div background with real hero image -->
-            </div>
+      <div class="container hero__wrapper">
+        <!-- Left: Woman Image -->
+        <div class="hero__left">
+          <div class="hero__image-container">
+            <img src="./img/bg-1234.png" alt="Woman with gold jewelry" class="hero__image">
           </div>
         </div>
-      </section>
 
-      <!-- Why Sell Section -->
-      <section class="why-sell" id="why-sell">
-        <div class="container why-sell__grid">
-          <div class="why-sell__image">
-            <div class="placeholder-image placeholder-image--scale">
-              <!-- Scale image placeholder -->
-            </div>
+        <!-- Center: Brand & Benefits -->
+        <div class="hero__center">
+          <div class="hero__brand">
+           <img src="./img/navlogo.png" alt="">
           </div>
-          <div class="why-sell__content">
-            <h2>Why Sell Your Gold to Aghni Gold?</h2>
-            <ol class="why-sell__list">
-              <li>Doorstep Gold Selling Service in select locations.</li>
-              <li>100% Transparent Purity Testing in front of you.</li>
-              <li>Hassle-Free Pledged Gold Takeover Service.</li>
-              <li>Re-Pledge Gold Loan Support for urgent needs.</li>
-              <li>Instant Cash Within 15 Minutes on approval.</li>
-            </ol>
-          </div>
-        </div>
-      </section>
 
-      <!-- What's Gold Worth Today -->
-      <section class="gold-worth" id="gold-worth">
-        <div class="gold-worth__overlay">
-          <div class="container gold-worth__content">
-            <h2>What’s Gold Worth Today?</h2>
-            <p>
-              We follow live updated gold rates so you always know the real
-              value of your gold. Our prices are updated every few minutes
-              according to the current market.
-            </p>
-            <p>
-              Visit our branch or call us to know today’s buying price for your
-              jewellery, coins, or bars.
-            </p>
-            <a href="#offerForm" class="btn btn--secondary"
-              >Check your gold price</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <!-- FAQ Section -->
-      <section class="faq">
-        <div class="container">
-          <h2 class="section-title">Questions People Ask Us</h2>
-          <p class="section-subtitle">
-            Your gold questions, clearly answered. We give real honest answers.
-          </p>
-          <div class="faq__grid">
-            <article class="faq__highlight">
-              <h3>Thinking of Selling Gold?</h3>
-              <p>
-                Still unsure about the process or the price you may get? Our
-                expert team will guide you clearly, step by step.
-              </p>
-              <p>
-                Bring your gold for a free purity check and no-obligation
-                quote. Decide only if you are fully satisfied.
-              </p>
-              <a href="#offerForm" class="btn btn--primary btn--full"
-                >Talk to Our Experts</a
-              >
-            </article>
-
-            <article class="faq-card" data-faq>
-              <h3>How is the gold price calculated?</h3>
-              <p>
-                We calculate based on the net weight and purity of your gold,
-                multiplied by the live market buying rate at the time of sale.
-              </p>
-            </article>
-            <article class="faq-card" data-faq>
-              <h3>Do you charge any hidden fees?</h3>
-              <p>
-                No. There are no hidden charges. All deductions and calculations
-                are clearly explained before you sell.
-              </p>
-            </article>
-            <article class="faq-card" data-faq>
-              <h3>Can I sell pledged gold?</h3>
-              <p>
-                Yes. We help you release your pledged gold from banks or
-                financiers and then buy it at the best possible price.
-              </p>
-            </article>
-            <article class="faq-card" data-faq>
-              <h3>How long does the entire process take?</h3>
-              <p>
-                On average, the process takes 15–30 minutes from testing to
-                payment, depending on the quantity.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- What Can You Sell -->
-      <section class="what-sell">
-        <div class="container what-sell__grid">
-          <div class="what-sell__image">
-            <div class="placeholder-image placeholder-image--round">
-              <!-- Round customer image placeholder -->
-            </div>
-          </div>
-          <div class="what-sell__content">
-            <h2>What Can You Sell to Us?</h2>
-            <h3>Gold Jewellery</h3>
-            <p>
-              We buy more than just old gold jewellery. Bring any of the
-              following and we will offer you a fair, market-linked price.
-            </p>
-            <ul>
-              <li>Old, unused, or outdated jewellery designs.</li>
-              <li>Broken chains, bangles, and single earrings.</li>
-              <li>Wedding jewellery you no longer use.</li>
-              <li>Gold coins, biscuits, and bars from trusted mints.</li>
-              <li>Pledged or re-pledged gold from banks or pawnbrokers.</li>
-            </ul>
-            <p class="what-sell__note">
-              Not sure if we will buy it? Call us and share a picture – our
-              team will guide you.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Results / Testimonials -->
-      <section class="results">
-        <div class="container">
-          <h2>The Results</h2>
-          <p>
-            Over the years, hundreds of customers across Chennai have trusted
-            Aghni Gold to sell their precious gold safely and profitably.
-          </p>
-          <div class="results__grid">
-            <article class="results-card">
-              <h3>Happy Customers</h3>
-              <p>
-                From first-time sellers to repeat clients, our transparent
-                process has earned us consistent 5-star feedback.
-              </p>
-            </article>
-            <article class="results-card">
-              <h3>High Payouts</h3>
-              <p>
-                Customers regularly tell us they got more at Aghni Gold compared
-                to other local buyers and pawn shops.
-              </p>
-            </article>
-            <article class="results-card">
-              <h3>Quick Processing</h3>
-              <p>
-                Most transactions are completed in under 30 minutes, with
-                instant cash or bank transfer based on your preference.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- About Us -->
-      <section class="about-home" id="about">
-        <div class="container about-home__grid">
-          <div class="about-home__text">
-            <h2>About Aghni Gold</h2>
-            <p>
-              Aghni Gold was started with one simple belief – selling your gold
-              should be as dignified and transparent as buying it. We bring
-              together fair pricing, modern technology, and warm human service.
-            </p>
-            <p>
-              Our branches in Chennai are designed to be safe, clean, and
-              comfortable for your family. Our staff are trained to explain
-              every step so that you stay in full control of your decision.
-            </p>
-            <p>
-              It is this commitment to honesty and clarity that has helped us
-              become one of the trusted gold buyers in the city.
-            </p>
-          </div>
-          <div class="about-home__image">
-            <div class="placeholder-image placeholder-image--office">
-              <!-- Office/meeting image placeholder -->
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Google Reviews -->
-      <section class="reviews">
-        <div class="container">
-          <h2>Our Google Reviews</h2>
-          <p class="section-subtitle">
-            Rated 4.8/5 by happy customers who sold their gold at Aghni Gold.
-          </p>
-          <div class="reviews__grid">
-            <article class="review-card">
-              <h3>“Very Transparent Service”</h3>
-              <p>
-                The team clearly explained every step. I felt confident and
-                satisfied with the price I received.
-              </p>
-              <span class="review-card__name">– S. Kumar</span>
-            </article>
-            <article class="review-card">
-              <h3>“Got Better Price Than Others”</h3>
-              <p>
-                I checked with two other buyers before coming here. Aghni Gold
-                gave me the highest price.
-              </p>
-              <span class="review-card__name">– Priya R.</span>
-            </article>
-            <article class="review-card">
-              <h3>“Quick &amp; Hassle-Free”</h3>
-              <p>
-                The entire process took less than 20 minutes. I received money
-                instantly in my bank account.
-              </p>
-              <span class="review-card__name">– M. Rahman</span>
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer__grid">
-        <div class="footer__brand">
-          <h3>Aghni Gold</h3>
-          <p>Trusted gold buyers offering honest value for your gold.</p>
-        </div>
-        <div class="footer__links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#why-sell">Why Sell to Us</a></li>
-            <li><a href="#gold-worth">Today’s Gold Price</a></li>
-            <li><a href="#offerForm">Get an Offer</a></li>
+          <ul class="hero__benefits">
+            <li>
+              <span class="benefit-icon"><i class="fas fa-check"></i></span>
+              <span>INSTANT Cash within 15 MINUTES</span>
+            </li>
+            <li>
+              <span class="benefit-icon"><i class="fas fa-check"></i></span>
+              <span>PLEDGED GOLD TAKE OVER</span>
+            </li>
+            <li>
+              <span class="benefit-icon"><i class="fas fa-check"></i></span>
+              <span>DOOR-STEP SERVICE (7 AM TO 9 PM)</span>
+            </li>
+            <li>
+              <span class="benefit-icon"><i class="fas fa-check"></i></span>
+              <span>100% SATISFIED CUSTOMER</span>
+            </li>
           </ul>
         </div>
-        <div class="footer__contact">
-          <h4>Contact</h4>
-          <p>Chennai, Tamil Nadu</p>
-          <p>Phone: +91 12345 67890</p>
-          <p>Email: info@aghni-gold.com</p>
-          <div class="footer__social">
-            <a href="#" aria-label="Facebook">Fb</a>
-            <a href="#" aria-label="Instagram">Insta</a>
-            <a href="#" aria-label="YouTube">YT</a>
+
+        <!-- Right: Form -->
+        <div class="hero__right">
+          <div class="hero__form-card">
+            <h3 class="form-title">GET FREE ESTIMATION</h3>
+            <form class="estimation-form" id="estimationForm">
+              <div class="form-field">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-field">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-field">
+                <input type="tel" id="phone" name="phone" placeholder="Phone No." required maxlength="10">
+              </div>
+              <div class="form-field">
+                <input type="text" id="grams" name="grams" placeholder="How Many Grams/Gold" required>
+              </div>
+              <button type="submit" class="btn btn--gold btn--full">Get Now</button>
+            </form>
           </div>
         </div>
       </div>
-      <div class="footer__bottom">
-        <div class="container footer__bottom-inner">
-          <p>© <span id="year"></span> Aghni Gold. All rights reserved.</p>
+
+      <!-- Bottom CTA -->
+      <div class="container">
+        <p class="hero__cta-text">தங்க நகை விற்று உடனடி பணம் பெற</p>
+      </div>
+    </section>
+
+    <!-- TRUST BADGES -->
+    <section class="badges">
+      <div class="container">
+        <div class="badges__grid">
+          <div class="badge-item">
+            <div class="badge-icon">
+              <img src="./img/mainlogo1.png" alt="">
+            </div>
+            <h3>Hassle-Free<br>Home Pickup</h3>
+          </div>
+          <div class="badge-item">
+            <div class="badge-icon">
+              <img src="./img/mainlogo.png" alt="">
+            </div>
+            <h3>Clear Pledged<br>Loan Easily</h3>
+          </div>
+          <div class="badge-item">
+            <div class="badge-icon">
+              <img src="./img/mainlogo2.png" alt="">
+            </div>
+            <h3>Walk Out With<br>Cash Instantly</h3>
+          </div>
+        </div>
+
+        <div class="badges__rating">
+          <span class="g-icon">G</span>
+          <span class="stars">★★★★★</span>
+          <span>| 4.9 rating</span>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
-      ↑
-    </button>
+    <!-- GOLD BUYER INTRO -->
+    <section class="intro">
+      <div class="container intro__grid">
+        <div class="intro__text">
+          <h2><span class="text-maroon">Gold Buyer</span> in Chennai Get The <span class="text-maroon">Highest Price</span> Today</h2>
+          <p>Aghni Gold offers the highest price for your old, broken or unused gold in Chennai. Enjoy a safe, transparent and BIS-certified purity testing process that gives you instant payment with zero hidden charges.</p>
+          <a href="#estimationForm" class="btn btn--maroon">Convert Your Gold to Cash Instantly</a>
+        </div>
+        <div class="intro__image">
+          <img src="./img/p1.png" alt="Gold jewelry collection">
+        </div>
+      </div>
 
-    <script src="index.js"></script>
-  </body>
+      <!-- Certification Badges -->
+      <div class="container">
+        <div class="certifications">
+          <div class="cert-item">
+            <i class="fas fa-shield-alt"></i>
+            <span>RBI Approved</span>
+          </div>
+          <div class="cert-item">
+            <i class="fas fa-certificate"></i>
+            <span>BIS Certified</span>
+          </div>
+          <div class="cert-item">
+            <i class="fas fa-medal"></i>
+            <span>ISO Certified</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY SELL SECTION -->
+    <section class="why-sell" id="services">
+      <div class="container why-sell__grid">
+        <div class="why-sell__image">
+          <img src="./img/gold2.png" alt="Gold weighing scale">
+        </div>
+        <div class="why-sell__content">
+          <h2>Why Sell Your Gold to Aghni Gold?</h2>
+          <ul class="why-list">
+            <li>
+              <span class="number">1</span>
+              <div>
+                <h4>Doorstep Gold Selling Service</h4>
+                <p>Our team will visit your location to perform gold testing and purchase your items which provides you with a fast and private and easy experience.</p>
+              </div>
+            </li>
+            <li>
+              <span class="number">2</span>
+              <div>
+                <h4>100% Transparent Purity Testing</h4>
+                <p>The BIS-certified machines at our facility perform gold evaluations in front of you to deliver precise and unbiased pricing without any price reductions.</p>
+              </div>
+            </li>
+            <li>
+              <span class="number">3</span>
+              <div>
+                <h4>Pledged Gold Takeover Service</h4>
+                <p>Our company provides assistance to retrieve your pledged or pawned gold from banks and finance companies while delivering the highest possible value.</p>
+              </div>
+            </li>
+            <li>
+              <span class="number">4</span>
+              <div>
+                <h4>Re-Pledge Gold Loan Support</h4>
+                <p>We provide you with safe re-pledge services for your gold when you need financial help and want to retrieve your gold from our trusted partners.</p>
+              </div>
+            </li>
+            <li>
+              <span class="number">5</span>
+              <div>
+                <h4>Instant Cash Within 15 Minutes</h4>
+                <p>You can bring gold to our location and receive cash or bank transfer or UPI payment within 15 minutes for your immediate needs.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOLD WORTH SECTION -->
+    <section class="gold-worth">
+      <div class="container gold-worth__content">
+        <h2>What's Gold Worth Today?</h2>
+        <img src="./img/" alt="">
+        <p>We follow live updated gold rates so you always know the real value of your gold. Our prices are updated every few minutes according to the current market.</p>
+        <p>Visit our branch or call us to know today's buying price for your jewellery, coins, or bars.</p>
+        <a href="#estimationForm" class="btn btn--gold">Check your gold price</a>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="faq-header">
+          <h2>Questions People Ask Us</h2>
+          <p>You've Got Questions About Selling Gold. <span>We've Got Real Answers.</span></p>
+        </div>
+
+        <div class="faq-badge">
+          <p>SELL GOLD @ MARKET VALUE</p>
+          <h3>15</h3>
+          <span>MINUTES</span>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-card">
+            <h4>"How do you test purity? Can I trust it?"</h4>
+            <p>We use XRF testing and acid tests. You stand right there and watch. The machine shows the purity percentage on a digital screen. No disappearing into a back room.</p>
+          </div>
+          <div class="faq-card">
+            <h4>"I have broken jewellery. Will you still buy it?"</h4>
+            <p>Absolutely. Broken, bent, scratched, outdated design – doesn't matter. We're buying gold, not admiring jewellery. If it's gold, we'll buy it.</p>
+          </div>
+          <div class="faq-card faq-card--highlight">
+            <h4>"How fast can I actually get cash?"</h4>
+            <p>Fifteen minutes. That's not marketing talk — that's the actual time from when you walk in (or we arrive at your door) to when money's in your hand.</p>
+            <a href="#estimationForm" class="btn btn--maroon btn--sm">Check your Gold Price today</a>
+          </div>
+          <div class="faq-card">
+            <h4>"What's the gold rate right now?"</h4>
+            <p>Rates change constantly — that's how the gold market works. Call 8000 100 933 for the live rate when you're ready.</p>
+          </div>
+          <div class="faq-card">
+            <h4>"Why should I choose Aghni Gold?"</h4>
+            <p>You watch the testing. You see the math. You get market rates without weird deductions. Plus, we're government-registered.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT CAN YOU SELL -->
+    <section class="sell-section">
+      <div class="container sell-container">
+        <div class="sell-image">
+          <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=400&fit=crop" alt="Gold jewelry">
+        </div>
+        <div class="sell-content">
+          <h2>What Can You Sell to Us?</h2>
+          <h5>We Buy More Than Just Gold Jewellery</h5>
+          <p class="intro-text">Most people don't realize how much value is sitting unused in their homes. Here's everything we buy at the best Chennai market rates:</p>
+          
+          <h3>GOLD JEWELLERY</h3>
+          <ul>
+            <li>Old bangles, outdated necklace sets</li>
+            <li>Wedding jewellery you never wear anymore</li>
+            <li>Gold with missing stones or damaged clasps</li>
+            <li>Heavy traditional pieces that don't match modern style</li>
+            <li>Any karat: 24K, 22K, 18K, even 14K</li>
+          </ul>
+
+          <h4>Not Sure If We Buy It?</h4>
+          <p>If it's gold, silver, diamonds, or platinum—bring it. We'll evaluate and give you a fair quote. No item is too small or too old.</p>
+          <a href="#estimationForm" class="btn btn--maroon">Check what's your items are worth</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS SECTION -->
+    <section class="results">
+      <div class="container">
+        <h2>The Results</h2>
+        <p class="results__subtitle">Over the years, hundreds of customers across Chennai have trusted Aghni Gold to sell their precious gold safely and profitably.</p>
+        
+        <div class="results__grid">
+          <div class="result-card">
+            <h3>Happy Customers</h3>
+            <p>From first-time sellers to repeat clients, our transparent process has earned us consistent 5-star feedback.</p>
+          </div>
+          <div class="result-card">
+            <h3>High Payouts</h3>
+            <p>Customers regularly tell us they got more at Aghni Gold compared to other local buyers and pawn shops.</p>
+          </div>
+          <div class="result-card">
+            <h3>Quick Processing</h3>
+            <p>Most transactions are completed in under 30 minutes, with instant cash or bank transfer based on your preference.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+      <div class="container about-container">
+        <div class="about-text">
+          <h2>About us</h2>
+          <p>We started AghniGold because gold selling in Chennai needed to change. What was happening was this: People owning gold—maybe inherited, maybe some old jewellery they never wear—wanted to sell it off. But the experience was bad. Hidden charges. Purity tests done behind closed doors.</p>
+          <p>Prices that seemed so random. Getting taken advantage of because most people don't sell gold every day. We thought: this shouldn't be so hard. Gold has a market rate. Testing equipment exists. Why can't this be simple and honest? So, we started AghniGold.</p>
+          <h4>What We Believe In:</h4>
+        </div>
+        <div class="about-image-card">
+          <div class="image-overlay">
+            <h3>We Started <span>AGHNI GOLD</span></h3>
+            <p>Because Gold Selling in<br><strong>Chennai Needed to Change!</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="belief-cards">
+          <div class="belief-card">
+            <h5>SHOW, DON'T HIDE</h5>
+            <p>You see the testing. You see the calculation. You understand precisely what you're getting and why.</p>
+          </div>
+          <div class="belief-card">
+            <h5>PAY FAIR MARKET VALUE</h5>
+            <p>We check current Chennai rates and pay accordingly. No weird deductions that don't make sense.</p>
+          </div>
+          <div class="belief-card">
+            <h5>MAKE IT FAST</h5>
+            <p>You need cash for a reason. We're not going to waste your time with complicated processes.</p>
+          </div>
+          <div class="belief-card">
+            <h5>COME TO YOU</h5>
+            <p>Selling gold shouldn't require taking a day off work and traveling across the city.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOOGLE REVIEWS -->
+    <section class="google-reviews">
+      <div class="container reviews-container">
+        <div class="reviews-header">
+          <div class="google-logo">
+            <span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span>
+          </div>
+          <a href="#" class="review-btn">Write a review</a>
+          <h2>Our Google Reviews</h2>
+          <div class="rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-text">4.9 rating of 435 reviews</span>
+          </div>
+        </div>
+
+        <div class="reviews-slider">
+          <button class="nav-btn nav-btn--prev">‹</button>
+          
+          <div class="reviews-track">
+            <div class="review-card">
+              <div class="avatar"></div>
+              <h4>Sekaran</h4>
+              <small>16/12/2025</small>
+              <div class="stars">★★★★★</div>
+              <p>Best place in chennai for selling gold compared to another place. thank you aghni gold.</p>
+              <span class="g-icon-small">G</span>
+            </div>
+            <div class="review-card">
+              <div class="avatar"></div>
+              <h4>Dhanush</h4>
+              <small>11/12/2025</small>
+              <div class="stars">★★★★★</div>
+              <p>Cash in your inherited silver and gold here. trust worthy guys !!!</p>
+              <span class="g-icon-small">G</span>
+            </div>
+            <div class="review-card">
+              <div class="avatar"></div>
+              <h4>Hema</h4>
+              <small>08/12/2025</small>
+              <div class="stars">★★★★★</div>
+              <p>Sold old gold jewellery. I had some nice cash for stuff I had no use for...</p>
+              <span class="g-icon-small">G</span>
+            </div>
+          </div>
+
+          <button class="nav-btn nav-btn--next">›</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container footer-container">
+      <!-- Brand & Contact -->
+      <div class="footer-col footer-brand">
+        <div class="footer-logo">
+          <span class="logo__tamil">அக்னி<sup>®</sup></span>
+          <span class="logo__english">GOLD</span>
+        </div>
+        <p class="tagline">Aghni Gold - Get Instant Cash For Your Gold</p>
+
+        <div class="footer-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p><strong>T NAGAR BRANCH</strong> - 1st Floor, 52/83, Bazullah Rd, T. Nagar, Chennai, Tamil Nadu 600017.</p>
+        </div>
+        <div class="footer-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p><strong>ARUMBAKKAM BRANCH</strong> - 26, 1st Floor, Vinayagapuram 1st street MMDA Colony main road, Arumbakkam, Chennai 600106.</p>
+        </div>
+        <div class="footer-item">
+          <i class="fas fa-phone"></i>
+          <p>+91 8000 100 933, +91 887 887 1422</p>
+        </div>
+        <div class="footer-item">
+          <i class="fas fa-envelope"></i>
+          <p>support@aghnigold.com</p>
+        </div>
+        <div class="footer-item">
+          <i class="fas fa-clock"></i>
+          <p>Monday - Saturday : 9:30 AM to 7:00 PM</p>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="footer-col footer-links">
+        <h4>Useful Links</h4>
+        <div class="links-grid">
+          <ul>
+            <li><a href="#">Cash for Gold Jewellery</a></li>
+            <li><a href="#">Cash for Gold Coin</a></li>
+            <li><a href="#">Cash for Silver</a></li>
+            <li><a href="#">Cash for Diamond</a></li>
+            <li><a href="#">Cash for Other Valuables</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Who we are?</a></li>
+            <li><a href="#">Our Privacy Policy</a></li>
+            <li><a href="#">Content Disclaimer</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Important Note -->
+      <div class="footer-col footer-note">
+        <h4>Important Note (Criminal Action)</h4>
+        <p>Aghni Gold does not buy stolen or broken gold. Selling stolen or fake gold is a criminal offense, and if identified, the person and the ornaments will be handed over to the police. Anyone aged 21 or younger can only sell gold with a parent's or guardian's written letter.</p>
+        <a href="#" class="alert-btn">
+          <i class="fas fa-exclamation-triangle"></i>
+          Notify Our Team (Missing? Complaints) Now!
+        </a>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Aghni Gold. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // Mobile Nav Toggle
+    const navToggle = document.getElementById('navToggle');
+    const mainNav = document.getElementById('mainNav');
+    
+    navToggle.addEventListener('click', () => {
+      mainNav.classList.toggle('open');
+      navToggle.classList.toggle('active');
+    });
+
+    // Scroll to Top Button
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 500) {
+        scrollTopBtn.classList.add('visible');
+      } else {
+        scrollTopBtn.classList.remove('visible');
+      }
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          mainNav.classList.remove('open');
+        }
+      });
+    });
+  </script>
+
+</body>
 </html>
-
-
-
