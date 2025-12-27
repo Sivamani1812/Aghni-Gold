@@ -5,11 +5,1525 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aghni Gold - Sell Your Gold for Best Price in Chennai</title>
   <meta name="description" content="Get the highest price for your gold in Chennai. Instant cash within 15 minutes. BIS certified purity testing. Doorstep service available.">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" >
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+   <!-- <style>
+    @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* ============================================
+   CSS VARIABLES
+   ============================================ */
+:root {
+  --maroon: #5e0008;
+  --maroon-dark: #3d0005;
+  --maroon-light: #8b1a1a;
+  --gold: #f5c14c;
+  --gold-dark: #c79a29;
+  --gold-light: #ffd700;
+  --cream: #f5e6c8;
+  --cream-light: #fff8eb;
+  --cream-dark: #e8d4a8;
+  --tan: #f0c990;
+  --text-dark: #2d1810;
+  --text-light: #fff;
+  --text-muted: #6b5b4d;
+  --gradient-maroon: linear-gradient(135deg, var(--maroon) 0%, var(--maroon-dark) 100%);
+  --gradient-gold: linear-gradient(135deg, var(--gold-light) 0%, var(--gold-dark) 100%);
+  --gradient-hero: radial-gradient(circle at center, #4d0006 0%, #3d0005 100%);
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --shadow-gold: 0 8px 24px rgba(245, 193, 76, 0.4);
+  --shadow-maroon: 0 8px 24px rgba(94, 0, 8, 0.3);
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Poppins', sans-serif;
+  --container-width: 1200px;
+  --section-padding: 80px;
+}
+
+/* RESET */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-dark);
+  background: var(--cream);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn--gold {
+  background: var(--gradient-gold);
+  color: var(--maroon-dark);
+  box-shadow: var(--shadow-gold);
+}
+
+.btn--gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(245, 193, 76, 0.5);
+}
+
+.btn--maroon {
+  background: var(--gradient-maroon);
+  color: var(--cream);
+  box-shadow: var(--shadow-maroon);
+}
+
+.btn--maroon:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(94, 0, 8, 0.4);
+}
+
+.btn--nav {
+  background: var(--gold);
+  color: var(--maroon-dark);
+  font-weight: 700;
+  box-shadow: var(--shadow-gold);
+}
+
+.btn--full {
+  width: 100%;
+}
+
+.btn--sm {
+  padding: 8px 18px;
+  font-size: 13px;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+}
+
+.top-bar {
+  background: rgba(245, 209, 110, 0.85);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.top-bar__text {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.top-bar__text .highlight {
+  color: #d32f2f;
+  font-weight: 800;
+}
+
+.nav-bar {
+  background: var(--maroon-dark);
+  padding: 0 20px;
+}
+
+.nav-bar__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logo__tamil {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.logo__english {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 4px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.main-nav li a {
+  display: block;
+  padding: 20px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-light);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.main-nav li a:hover,
+.main-nav li a.active {
+  color: var(--gold);
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.nav-toggle span {
+  width: 24px;
+  height: 2px;
+  background: var(--text-light);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* ============================================
+   HERO SECTION
+   ============================================ */
+.hero {
+  background: var(--gradient-hero);
+  padding: 40px 0 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__heading {
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--cream);
+  line-height: 1.4;
+  max-width: 900px;
+}
+
+.hero__best-price {
+  display: inline-block;
+  color: var(--gold-dark);
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-weight: 800;
+}
+
+.hero__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: end;
+}
+
+.hero__left {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__image-container {
+  position: relative;
+}
+
+.hero__image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px 20px 0 0;
+  box-shadow: var(--shadow-soft);
+}
+
+.hero__rating {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--maroon);
+  padding: 10px 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.hero__rating .g-icon {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.hero__rating .stars {
+  color: var(--gold);
+  font-size: 14px;
+}
+
+.hero__rating .rating-text {
+  color: var(--cream);
+  font-size: 12px;
+}
+
+.hero__center {
+  text-align: center;
+}
+
+.hero__brand {
+  width: 370px;
+  height: 280px;
+  margin: 0 auto 20px;
+}
+
+.hero__benefits {
+  text-align: left;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.hero__benefits li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--cream);
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.benefit-icon {
+  width: 24px;
+  height: 24px;
+  background: var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.benefit-icon i {
+  font-size: 12px;
+  color: var(--maroon-dark);
+}
+
+.hero__form-card {
+  background: var(--cream-light);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: var(--shadow-soft);
+  max-width: 360px;
+}
+
+.form-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--maroon-dark);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  margin-bottom: 12px;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--cream-dark);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(245, 193, 76, 0.2);
+}
+
+.form-field input::placeholder {
+  color: #999;
+}
+
+.hero__cta-text {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--cream);
+  text-align: right;
+  margin-top: 30px;
+}
+
+/* ============================================
+   TRUST BADGES
+   ============================================ */
+.badges {
+  background: var(--cream-light);
+  padding: 60px 0;
+}
+
+.badges__grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.badge-item {
+  text-align: center;
+}
+
+.badge-icon {
+  width: 180px;
+  height: 180px;
+  background: var(--maroon);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  box-shadow: var(--shadow-maroon);
+}
+
+.badge-icon i {
+  font-size: 36px;
+  color: var(--gold);
+}
+
+.badge-item h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.4;
+}
+
+.badges__rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--maroon);
+  padding: 15px 30px;
+  border-radius: 15px;
+  width: fit-content;
+  margin: 0 auto;
+  color: var(--cream);
+}
+
+.badges__rating .g-icon {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.badges__rating .stars {
+  color: var(--gold);
+  font-size: 16px;
+}
+
+/* ============================================
+   INTRO SECTION
+   ============================================ */
+.intro {
+  background: var(--tan);
+  padding: var(--section-padding) 0;
+}
+
+.intro__grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.intro__text h2 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: var(--text-dark);
+}
+
+.text-maroon {
+  color: var(--maroon);
+}
+
+.intro__text p {
+  font-size: 18px;
+  color: var(--text-dark);
+  margin-bottom: 25px;
+  line-height: 1.8;
+}
+
+.intro__image img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.certifications {
+  display: flex;
+  justify-content: space-around;
+  background: var(--maroon);
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.cert-item i {
+  font-size: 24px;
+}
+
+/* ============================================
+   WHY SELL SECTION
+   ============================================ */
+.why-sell {
+  background: var(--gradient-maroon);
+  padding: var(--section-padding) 0;
+}
+
+.why-sell__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.why-sell__image img {
+  width: 100%;
+  max-width: 450px;
+}
+
+.why-sell__content h2 {
+  font-family: var(--font-display);
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--cream);
+  margin-bottom: 35px;
+}
+
+.why-list li {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.why-list .number {
+  width: 36px;
+  height: 36px;
+  background: var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--maroon-dark);
+  flex-shrink: 0;
+}
+
+.why-list h4 {
+  color: var(--gold);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.why-list p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ============================================
+   GOLD WORTH SECTION
+   ============================================ */
+.gold-worth {
+  background: #fff;
+  padding: var(--section-padding) 0;
+}
+
+.gold-worth__content {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gold-worth__content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.gold-worth__content h2 span {
+  color: #8d2828;
+}
+
+.gold-worth__content img {
+  border-radius: 20px;
+  width: 100%;
+  max-height: 250px;
+  margin: auto;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.gold-worth__content p {
+  color: rgba(83, 49, 49, 0.85);
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.gold-worth__content .btn {
+  margin-top: 20px;
+}
+
+/* ============================================
+   FAQ SECTION
+   ============================================ */
+.faq-section {
+  background: var(--gradient-maroon);
+  padding: var(--section-padding) 0;
+  position: relative;
+}
+
+.faq-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.faq-header h2 {
+  font-family: var(--font-display);
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+
+.faq-header p {
+  color: var(--cream);
+  font-size: 18px;
+}
+
+.faq-header p span {
+  color: var(--gold);
+  font-weight: 600;
+}
+
+.faq-badge {
+  position: absolute;
+  top: 40px;
+  right: 120px;
+  text-align: center;
+  color: var(--gold);
+}
+
+.faq-badge img {
+  width: 180px;
+  height: 200px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-top: 100px;
+}
+
+.faq-card {
+  background: var(--cream-light);
+  border-radius: 16px;
+  padding: 22px;
+  color: var(--maroon);
+}
+
+.faq-card h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.faq-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.faq-card--highlight {
+  background: var(--gold);
+  color: var(--maroon-dark);
+}
+
+.faq-card .btn {
+  margin-top: 15px;
+}
+
+/* ============================================
+   WHAT CAN YOU SELL
+   ============================================ */
+.sell-section {
+  background: var(--tan);
+  padding: var(--section-padding) 0;
+}
+
+.sell-container {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.sell-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-soft);
+  margin: 0 auto;
+}
+
+.sell-content h2 {
+  font-family: var(--font-display);
+  font-size: 44px;
+  font-weight: 700;
+  color: var(--maroon);
+  margin-bottom: 15px;
+}
+
+.sell-content h5 {
+  font-size: 26px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.sell-content .intro-text {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 25px;
+}
+
+.sell-content h3 {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--maroon);
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.sell-content ul {
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+
+.sell-content li {
+  font-size: 14px;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.sell-content li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: black;
+}
+
+.sell-content h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.sell-content > p {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+/* ============================================
+   RESULTS SECTION
+   ============================================ */
+.results {
+  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85));
+  padding: var(--section-padding) 0;
+  text-align: center;
+}
+
+.results h2 {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--cream);
+  margin-bottom: 15px;
+}
+
+.results__subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.results__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.result-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.result-card h3 {
+  color: var(--gold);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.result-card p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ============================================
+   ABOUT SECTION
+   ============================================ */
+.about-section {
+  background: var(--gradient-maroon);
+  padding: var(--section-padding) 0;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: start;
+  margin-bottom: 50px;
+}
+
+.about-text h2 {
+  font-family: var(--font-display);
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 25px;
+}
+
+.about-text p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.about-text h4 {
+  color: var(--gold);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.about-image-card {
+  background: linear-gradient(135deg, rgba(245, 193, 76, 0.3) 0%, rgba(255, 248, 235, 0.2) 100%);
+  border-radius: 20px;
+  position: relative;
+  min-height: 350px;
+}
+
+.image-overlay {
+  position: absolute;
+  inset: 30px;
+  background: transparent;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.image-overlay h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--maroon);
+  margin-bottom: 10px;
+}
+
+.image-overlay h3 span {
+  color: var(--gold-dark);
+}
+
+.image-overlay p {
+  font-size: 14px;
+  color: var(--maroon);
+}
+
+.belief-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.belief-card {
+  background: var(--cream);
+  border-radius: 18px;
+  padding: 25px;
+  text-align: center;
+}
+
+.belief-card h5 {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--maroon);
+  margin-bottom: 10px;
+}
+
+.belief-card p {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* ============================================
+   GOOGLE REVIEWS
+   ============================================ */
+.google-reviews {
+  background: var(--cream-light);
+  padding: var(--section-padding) 0;
+}
+
+.reviews-header {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.google-logo {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.g-blue { color: #4285f4; }
+.g-red { color: #ea4335; }
+.g-yellow { color: #fbbc05; }
+.g-green { color: #34a853; }
+
+.review-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #4285f4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.review-btn:hover {
+  background: #3367d6;
+}
+
+.reviews-header h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.reviews-header .rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.reviews-header .stars {
+  color: #fbbc05;
+  font-size: 18px;
+}
+
+.reviews-header .rating-text {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.reviews-slider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.reviews-track {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  flex: 1;
+}
+
+.review-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  padding: 30px 25px 40px;
+  text-align: center;
+  position: relative;
+}
+
+.review-card .avatar {
+  width: 70px;
+  height: 70px;
+  background: #e0e0e0;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+
+.review-card h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.review-card small {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.review-card .stars {
+  color: #fbbc05;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.review-card p {
+  font-size: 14px;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.g-icon-small {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: 700;
+  color: #4285f4;
+}
+
+.nav-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: #f5f5f5;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.footer {
+  background: var(--gradient-maroon);
+  color: var(--gold);
+  padding: 70px 0 0;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 50px;
+}
+
+.footer-logo {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.tagline {
+  color: var(--cream);
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.footer-item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.footer-item i {
+  color: var(--gold);
+  margin-top: 3px;
+}
+
+.footer-item p {
+  color: var(--cream);
+  line-height: 1.6;
+}
+
+.footer-item strong {
+  color: var(--gold);
+}
+
+.footer-links h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: var(--cream);
+  font-size: 14px;
+}
+
+.footer-links a::before {
+  content: "➤ ";
+  color: var(--gold);
+}
+
+.footer-links a:hover {
+  color: var(--gold);
+}
+
+.footer-note h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-note > p {
+  color: var(--cream);
+  font-size: 13px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.alert-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--gold);
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.alert-btn:hover {
+  background: rgba(245, 193, 76, 0.1);
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icon {
+  width: 42px;
+  height: 42px;
+  background: rgba(245, 193, 76, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.social-icon:hover {
+  background: rgba(245, 193, 76, 0.3);
+}
+
+.footer-bottom {
+  margin-top: 50px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(245, 193, 76, 0.2);
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: var(--cream);
+  font-size: 14px;
+}
+
+/* ============================================
+   SCROLL TO TOP
+   ============================================ */
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--maroon);
+  color: var(--gold);
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-maroon);
+  z-index: 999;
+}
+
+.scroll-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-top:hover {
+  background: var(--maroon-dark);
+  transform: translateY(-3px);
+}
+
+/* ============================================
+   RESPONSIVE STYLES
+   ============================================ */
+@media (max-width: 1100px) {
+  .faq-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .faq-badge {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --section-padding: 60px;
+  }
+
+  .hero__wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .hero__left {
+    grid-column: 1 / 2;
+    grid-row: 2;
+  }
+
+  .hero__center {
+    grid-column: 2 / 3;
+    grid-row: 2;
+  }
+
+  .hero__right {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .intro__grid,
+  .why-sell__grid,
+  .sell-container,
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .why-sell__image,
+  .sell-image {
+    order: -1;
+  }
+
+  .why-sell__image img,
+  .sell-image img,
+  .intro__image img {
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .faq-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .results__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .belief-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .review-btn {
+    position: static;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar__content {
+    flex-wrap: wrap;
+    position: relative;
+    padding: 15px 0;
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--maroon-dark);
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+    z-index: 100;
+  }
+
+  .main-nav.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .main-nav li a {
+    display: block;
+    padding: 12px 20px;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .btn--nav {
+    order: -1;
+    margin-left: auto;
+    margin-right: 15px;
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .hero__heading {
+    font-size: 24px;
+  }
+
+  .hero__wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__left,
+  .hero__center,
+  .hero__right {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .hero__form-card {
+    max-width: 100%;
+  }
+
+  .hero__cta-text {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .badges__grid {
+    gap: 30px;
+  }
+
+  .intro__text h2 {
+    font-size: 32px;
+  }
+
+  .certifications {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .cert-item {
+    justify-content: center;
+  }
+  .faq-grid,
+  .results__grid,
+  .reviews-track {
+    grid-template-columns: 1fr;
+  }
+
+  .belief-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .top-bar__text {
+    font-size: 11px;
+    line-height: 1.5;
+  }
+}
+ 
+@media (max-width: 480px) {
+  .hero__heading {
+    font-size: 20px;
+  }
+
+  .hero__brand-name {
+    font-size: 36px;
+  }
+
+  .hero__brand-sub {
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+
+  .hero__benefits li {
+    font-size: 12px;
+  }
+
+  .intro__text h2,
+  .why-sell__content h2,
+  .sell-content h2,
+  .results h2,
+  .about-text h2,
+  .faq-header h2 {
+    font-size: 28px;
+  }
+
+  .why-list h4 {
+    font-size: 17px;
+  }
+
+  .scroll-top {
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+   </style> -->
+  
 </head>
 <body>
 
@@ -23,7 +1537,7 @@
       <div class="container nav-bar__content">
         <!-- Logo -->
         <div class="logo">
-          <img src="./img/logo (4).png" alt="">
+          <img src="./img/navlogo.png" alt="">
         </div>
 
         <!-- Mobile Toggle -->
@@ -70,14 +1584,14 @@
         <!-- Left: Woman Image -->
         <div class="hero__left">
           <div class="hero__image-container">
-            <img src="./img/bg-1234.png" alt="Woman with gold jewelry" class="hero__image">
+            <img src="./img/Group 41.png" alt="Woman with gold jewelry" class="hero__image">
           </div>
         </div>
 
         <!-- Center: Brand & Benefits -->
         <div class="hero__center">
           <div class="hero__brand">
-           <img src="./img/navlogo.png" alt="">
+           <img src="./img/logonew1.png" alt="" class="homelogoimg">
           </div>
 
           <ul class="hero__benefits">
@@ -130,7 +1644,7 @@
     </section>
 
     <!-- TRUST BADGES -->
-    <section class="badges">
+    <section class="badges" id="badges">
       <div class="container">
         <div class="badges__grid">
           <div class="badge-item">
@@ -162,7 +1676,7 @@
     </section>
 
     <!-- GOLD BUYER INTRO -->
-    <section class="intro">
+    <section class="intro" id="goldbuyer">
       <div class="container intro__grid">
         <div class="intro__text">
           <h2><span class="text-maroon">Gold Buyer</span> in Chennai Get The <span class="text-maroon">Highest Price</span> Today</h2>
@@ -243,18 +1757,18 @@
     </section>
 
     <!-- GOLD WORTH SECTION -->
-    <section class="gold-worth">
+    <section class="gold-worth" id="goldworth">
       <div class="container gold-worth__content">
-        <h2>What's Gold Worth Today?</h2>
-        <img src="./img/" alt="">
-        <p>We follow live updated gold rates so you always know the real value of your gold. Our prices are updated every few minutes according to the current market.</p>
-        <p>Visit our branch or call us to know today's buying price for your jewellery, coins, or bars.</p>
-        <a href="#estimationForm" class="btn btn--gold">Check your gold price</a>
+        <h2>What's<span> Gold Worth </span>Today?</h2>
+        <img src="./img/gold6.jpeg" alt="">
+        <p><b>Live Rates Updated Hourly The value of your gold becomes clear before selling when you check our updated hourly gold prices which reflect the current Chennai market prices.</b> </p>
+        <p>The value of gold changes constantly throughout each day. If you plan to sell your gold items you should contact us immediately at +91 8000 100 933 or +91 887 887 1422 to receive a customized price assessment for your specific items.</p>
+        <a href="#estimationForm" class="btn1 ">Check your gold price</a>
       </div>
     </section>
 
     <!-- FAQ SECTION -->
-    <section class="faq-section">
+    <section class="faq-section" id="ask">
       <div class="container">
         <div class="faq-header">
           <h2>Questions People Ask Us</h2>
@@ -262,9 +1776,7 @@
         </div>
 
         <div class="faq-badge">
-          <p>SELL GOLD @ MARKET VALUE</p>
-          <h3>15</h3>
-          <span>MINUTES</span>
+          <img src="./img/15 mins logo .png" alt="">
         </div>
 
         <div class="faq-grid">
@@ -277,9 +1789,13 @@
             <p>Absolutely. Broken, bent, scratched, outdated design – doesn't matter. We're buying gold, not admiring jewellery. If it's gold, we'll buy it.</p>
           </div>
           <div class="faq-card faq-card--highlight">
+           <div class="faq-card--highlight">
             <h4>"How fast can I actually get cash?"</h4>
             <p>Fifteen minutes. That's not marketing talk — that's the actual time from when you walk in (or we arrive at your door) to when money's in your hand.</p>
-            <a href="#estimationForm" class="btn btn--maroon btn--sm">Check your Gold Price today</a>
+           </div>
+            <div class="faq-card--highlight">
+              <a href="#estimationForm" class="btn btn--maroon btn--sm">Check your Gold Price today</a>
+            </div>
           </div>
           <div class="faq-card">
             <h4>"What's the gold rate right now?"</h4>
@@ -294,13 +1810,15 @@
     </section>
 
     <!-- WHAT CAN YOU SELL -->
-    <section class="sell-section">
+    <section class="sell-section" id="sell">
       <div class="container sell-container">
         <div class="sell-image">
-          <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=400&fit=crop" alt="Gold jewelry">
+          <img src="./img/sell-img.jpeg" alt="Gold jewelry">
+          <a href="#estimationForm" class="btn btn--maroon1">Check what's your items are worth</a>
         </div>
         <div class="sell-content">
           <h2>What Can You Sell to Us?</h2>
+          <span></span>
           <h5>We Buy More Than Just Gold Jewellery</h5>
           <p class="intro-text">Most people don't realize how much value is sitting unused in their homes. Here's everything we buy at the best Chennai market rates:</p>
           
@@ -315,31 +1833,24 @@
 
           <h4>Not Sure If We Buy It?</h4>
           <p>If it's gold, silver, diamonds, or platinum—bring it. We'll evaluate and give you a fair quote. No item is too small or too old.</p>
-          <a href="#estimationForm" class="btn btn--maroon">Check what's your items are worth</a>
+          
         </div>
       </div>
     </section>
 
     <!-- RESULTS SECTION -->
-    <section class="results">
+    <section class="results" id="results">
       <div class="container">
         <h2>The Results</h2>
-        <p class="results__subtitle">Over the years, hundreds of customers across Chennai have trusted Aghni Gold to sell their precious gold safely and profitably.</p>
+        <p class="results__subtitle">Over 200 families across Chennai have sold their gold through us. They keep recommending us to friends.
+
+Our rating on Google is 4.9 stars. People message us on Instagram, WhatsApp, and call us directly because someone they know had a good experience.
+    </p>
+    <p class="results__subtitle"> 
+We are government-registered; we follow RBI compliance. We have certified
+
+evaluators with years of experience in precious metals. But more than credentials, we just treat people the way we would want to be treated if we were selling our gold.</p>
         
-        <div class="results__grid">
-          <div class="result-card">
-            <h3>Happy Customers</h3>
-            <p>From first-time sellers to repeat clients, our transparent process has earned us consistent 5-star feedback.</p>
-          </div>
-          <div class="result-card">
-            <h3>High Payouts</h3>
-            <p>Customers regularly tell us they got more at Aghni Gold compared to other local buyers and pawn shops.</p>
-          </div>
-          <div class="result-card">
-            <h3>Quick Processing</h3>
-            <p>Most transactions are completed in under 30 minutes, with instant cash or bank transfer based on your preference.</p>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -353,10 +1864,7 @@
           <h4>What We Believe In:</h4>
         </div>
         <div class="about-image-card">
-          <div class="image-overlay">
-            <h3>We Started <span>AGHNI GOLD</span></h3>
-            <p>Because Gold Selling in<br><strong>Chennai Needed to Change!</strong></p>
-          </div>
+            <img src="./img/about-img.jpeg" alt="">
         </div>
       </div>
 
@@ -383,7 +1891,7 @@
     </section>
 
     <!-- GOOGLE REVIEWS -->
-    <section class="google-reviews">
+    <section class="google-reviews" id="review">
       <div class="container reviews-container">
         <div class="reviews-header">
           <div class="google-logo">
@@ -402,7 +1910,7 @@
           
           <div class="reviews-track">
             <div class="review-card">
-              <div class="avatar"></div>
+              <div class="avatar"><img src="./img/A2.jpg" alt=""></div>
               <h4>Sekaran</h4>
               <small>16/12/2025</small>
               <div class="stars">★★★★★</div>
@@ -410,7 +1918,8 @@
               <span class="g-icon-small">G</span>
             </div>
             <div class="review-card">
-              <div class="avatar"></div>
+              <div class="avatar"> <img src="./img/A1.jpg" alt="">
+              </div>
               <h4>Dhanush</h4>
               <small>11/12/2025</small>
               <div class="stars">★★★★★</div>
@@ -418,7 +1927,7 @@
               <span class="g-icon-small">G</span>
             </div>
             <div class="review-card">
-              <div class="avatar"></div>
+              <div class="avatar"><img src="./img/A8.jpg" alt=""></div>
               <h4>Hema</h4>
               <small>08/12/2025</small>
               <div class="stars">★★★★★</div>
@@ -439,8 +1948,7 @@
       <!-- Brand & Contact -->
       <div class="footer-col footer-brand">
         <div class="footer-logo">
-          <span class="logo__tamil">அக்னி<sup>®</sup></span>
-          <span class="logo__english">GOLD</span>
+         <img src="./img/logo new.png" alt="">
         </div>
         <p class="tagline">Aghni Gold - Get Instant Cash For Your Gold</p>
 
@@ -471,17 +1979,17 @@
         <h4>Useful Links</h4>
         <div class="links-grid">
           <ul>
-            <li><a href="#">Cash for Gold Jewellery</a></li>
-            <li><a href="#">Cash for Gold Coin</a></li>
-            <li><a href="#">Cash for Silver</a></li>
-            <li><a href="#">Cash for Diamond</a></li>
-            <li><a href="#">Cash for Other Valuables</a></li>
+            <li><a href="#badges">Trust Badges</a></li>
+            <li><a href="#goldbuyer">Gold Buyer</a></li>
+            <li><a href="#services">Why Sell Gold ?</a></li>
+            <li><a href="#goldworth">Gold Worth</a></li>
+            <li><a href="#ask">Ask Questions</a></li>
           </ul>
           <ul>
-            <li><a href="#">Who we are?</a></li>
-            <li><a href="#">Our Privacy Policy</a></li>
-            <li><a href="#">Content Disclaimer</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#sell">What Can You Sell</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#review">Customer Reviews</a></li>
             <li><a href="#">Contacts</a></li>
           </ul>
         </div>
@@ -496,9 +2004,9 @@
           Notify Our Team (Missing? Complaints) Now!
         </a>
         <div class="social-icons">
-          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61561267510028&sk=about" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/aghnigold?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com/@aghnigold?si=qrh-AZn0tgwKYuDq" class="social-icon"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
     </div>
