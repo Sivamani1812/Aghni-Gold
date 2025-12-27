@@ -132,6 +132,7 @@ ul {
 /* ============================================
    HEADER
    ============================================ */
+
 .site-header {
   position: sticky;
   top: 0;
@@ -141,13 +142,13 @@ ul {
 
 .top-bar {
   background: rgba(245, 209, 110, 0.85);
-  padding: 10px 20px;
+  padding: 10px 0px;
   text-align: center;
 }
 
 .top-bar__text {
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 800;
   color: var(--text-dark);
 }
 
@@ -829,7 +830,7 @@ ul {
     url("./img/result-bg.jpeg");
   background-size: cover;
   background-position: center;
-  padding: 30px;
+  padding: 100px 30px ;
 }
 
 .results h2 {
@@ -1093,7 +1094,7 @@ ul {
 }
 
 .footer-logo {
-  width: 200px;
+  width: auto;
   margin-bottom: 15px;
 }
 
@@ -1335,6 +1336,9 @@ ul {
     position: relative;
     padding: 15px 0;
   }
+  .logo{
+    margin: auto;
+  }
 
   .main-nav {
     position: absolute;
@@ -1378,7 +1382,7 @@ ul {
   .hero__heading {
     font-size: 24px;
   }
-
+ 
   .hero__wrapper {
     grid-template-columns: 1fr;
   }
@@ -1438,8 +1442,22 @@ ul {
  
 @media (max-width: 480px) {
   .hero__heading {
-    font-size: 20px;
+    font-size: 24px;
+    text-align: center;
   }
+  .logo{
+    width: 110px;
+    height: 130px;
+    margin-top: 40px;
+  }
+  .nav-bar__content{
+    padding: 0;
+    height:160px;
+  }
+  /* .nav-bar{
+    padding: 0;
+    margin: auto;
+  } */
 
   .hero__brand-name {
     font-size: 36px;
@@ -1460,11 +1478,28 @@ ul {
   .results h2,
   .about-text h2,
   .faq-header h2 {
-    font-size: 28px;
+    font-size: 26px;
+    text-align: center;
   }
 
   .why-list h4 {
     font-size: 17px;
+  }
+  .intro__text p {
+    text-align: justify;
+    font-size: 15px;
+  }
+  .btn--maroon1{
+    font-size: 16px;
+  }
+  .sell-content h2{
+    font-size: 28px;
+  }
+  .sell-content h5{
+    font-size: 22px;
+  }
+   .sell-content h3{
+    text-align: center;
   }
 
   .scroll-top {
